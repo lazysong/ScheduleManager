@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_ce"
+    android:orientation="vertical" >
+    
+<RelativeLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+    
+    <!--  <ImageButton 
+        android:id="@+id/image1_ce"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/background_ce"/> -->
+    
+    <RelativeLayout 
+        android:id="@+id/relative1_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip">
+        
+    
+    
+    <ImageButton 
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/touxiang"
+        android:layout_marginLeft="20dip"
+        android:layout_centerVertical="true"/>
+    
+    <Button 
+        android:id="@+id/button_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/head"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dip"
+        android:background="@drawable/back_button1_selector" />
+    
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/image0_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/jiangetiao_ce"
+        android:layout_marginTop="20dip"
+        android:layout_marginLeft="7dip"
+        android:layout_marginRight="7dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/relative1_ce"/>
+    
+    <RelativeLayout 
+        android:id="@+id/relative2_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image0_ce">
+        
+        <Button 
+            android:id="@+id/item1_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/item_selector"/>
+        
+        <ImageView 
+            android:id="@+id/image2_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/plan"/>
+        
+        <TextView 
+            android:id="@+id/jiange1_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image2_ce"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="所有计划"/>
+        
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/image3_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/jiangetiao_ce"
+        android:layout_marginLeft="7dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/relative2_ce"/>
+    
+	<RelativeLayout 
+        android:id="@+id/relative3_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image3_ce">
+        
+        <Button 
+            android:id="@+id/item2_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/item_selector"/>
+        
+        <ImageView 
+            android:id="@+id/image4_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/task"/>
+        
+        <TextView 
+            android:id="@+id/jiange2_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image4_ce"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="所有独立任务"/>
+        
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/image5_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/jiangetiao_ce"
+        android:layout_marginLeft="7dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/relative3_ce"/>
+    
+    <RelativeLayout 
+        android:id="@+id/relative4_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image5_ce">
+        
+        <Button 
+            android:id="@+id/item3_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/item_selector"/>
+        
+        <ImageView 
+            android:id="@+id/image6_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/calendar"/>
+        
+        <TextView 
+            android:id="@+id/jiange3_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image6_ce"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="所有日程"/>
+        
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/image7_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/jiangetiao_ce"
+        android:layout_marginLeft="7dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/relative4_ce"/>
+    
+    <RelativeLayout 
+        android:id="@+id/relative5_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image7_ce">
+        
+        <Button 
+            android:id="@+id/item4_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/item_selector"/>
+        
+        <ImageView 
+            android:id="@+id/image8_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ability"/>
+        
+        <TextView 
+            android:id="@+id/jiange4_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image8_ce"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="综合执行能力"/>
+        
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/image9_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/jiangetiao_ce"
+        android:layout_marginLeft="7dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/relative5_ce"/>
+    
+    <RelativeLayout 
+        android:id="@+id/relative6_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image9_ce">
+        
+        <Button 
+            android:id="@+id/item5_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/item_selector"/>
+        
+        <ImageView 
+            android:id="@+id/image10_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/information"/>
+        
+        <TextView 
+            android:id="@+id/jiange5_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image10_ce"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="关于我们"/>
+        
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/image11_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/jiangetiao_ce"
+        android:layout_marginLeft="7dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/relative6_ce"/>
+    
+    <RelativeLayout 
+        android:id="@+id/relative7_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/image11_ce">
+        
+        <Button 
+            android:id="@+id/item6_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/item_selector"/>
+        
+        <ImageView 
+            android:id="@+id/image12_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/quit"/>
+        
+        <TextView 
+            android:id="@+id/jiange6_ce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image12_ce"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dip"
+            android:text="退出程序"/>
+        
+    </RelativeLayout>
+    
+    <ImageView 
+        android:id="@+id/image13_ce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:background="@drawable/jiangetiao_ce"
+        android:layout_marginLeft="7dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/relative7_ce"/>
+</RelativeLayout>
+    
+   
+    
+</RelativeLayout>

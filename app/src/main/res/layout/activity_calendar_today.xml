@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_allplan"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:id="@+id/linear_layout1_check_today_calendar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title_background1" >
+        
+        <Button
+	        android:id="@+id/back_check_today_calendar"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="20dip"
+	        android:background="@drawable/back_button_selector" />
+        
+        <TextView
+	        android:id="@+id/textView1_check_today_calendar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="80dip"
+	        android:layout_marginRight="40dip"
+	        android:layout_toRightOf="@id/back_check_today_calendar"
+	        android:textColor="@android:color/white"
+	        android:textSize="18dip"
+	        android:gravity="center"
+	        android:text="所有日程" />
+
+	    <Button
+	        android:id="@+id/add_check_today_calendar"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_centerVertical="true"
+	        android:layout_toRightOf="@id/textView1_check_today_calendar"
+	        android:background="@drawable/add_button_selector" />
+        
+    </RelativeLayout>
+    
+    <TextView 
+        android:id="@+id/textView2_check_today_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/linear_layout1_check_today_calendar"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/background_numberofplans"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+    
+
+    
+    <ImageView 
+        android:id="@+id/imageview_check_today_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/background_listview"
+        android:layout_below="@id/textView2_check_today_calendar"/>
+    
+    <ListView
+        android:id="@+id/ListView1__check_today_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView2_check_today_calendar"
+        android:layout_marginTop="60dip"
+        android:layout_alignLeft="@id/imageview_check_today_calendar"
+        android:layout_alignRight="@id/imageview_check_today_calendar"
+        android:divider="@drawable/jiangetiao_listview_allplan" />
+
+</RelativeLayout>

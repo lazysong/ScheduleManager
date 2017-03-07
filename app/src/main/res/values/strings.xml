@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">计划助手</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string-array name="affair">
+        <item>待办事项1 今天下午1:00</item>
+        <item>待办事项2 今天下午2:00</item>
+        <item>待办事项3 今天下午3:00</item>
+        <item>待办事项4 今天下午4:00</item>
+        <item>待办事项5 今天下午5:00</item>
+        <item>待办事项6 今天下午6:00</item>
+    </string-array>
+    <string-array name="spinner_repeat">
+        <item>仅提醒一次</item>
+        <item>每天提醒</item>
+        <item>每周提醒</item>
+        <item>每月提醒</item>
+        <item>每年提醒</item>
+    </string-array>
+    <string-array name="spinner_promote">
+        <item>准时提醒</item>
+        <item>提前5分钟</item>
+        <item>提前10分钟</item>
+        <item>提前30分钟</item>
+        <item>提前1小时</item>
+        <item>提前2小时</item>
+        <item>提前3小时</item>
+    </string-array>
+    <string-array name="spinner_difficulty">
+        <item>非常简单</item>
+        <item>简单</item>
+        <item>一般</item>
+        <item>困难</item>
+        <item>非常困难</item>
+    </string-array>
+    <string-array name="spinner_priority">
+        <item>最紧迫</item>
+        <item>紧迫</item>
+        <item>要紧</item>
+        <item>不要紧</item>
+        <item>真的不要紧</item>
+    </string-array>
+
+    <string name="title_activity_calendar_main">CalendarMainActivity</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_calendar_specific">CalendarSpecificActivity</string>
+    <string name="title_activity_calendar_edit">CalendarEditActivity</string>
+    <string name="title_activity_calendar_add">CalendarAddActivity</string>
+    <string name="title_activity_plan_main">PlanMainActivity</string>
+    <string name="title_activity_plan_check">PlanCheckActivity</string>
+    <string name="title_activity_plan_edit">PlanEditActivity</string>
+    <string name="title_activity_plan_add">PlanAddActivity</string>
+    <string name="title_activity_calendar_today">CalendarTodayActivity</string>
+    <string name="title_activity_alarm">AlarmActivity</string>
+    <string name="title_activity_check_task">CheckTaskActivity</string>
+    <string name="title_activity_add_task">AddTaskActivity</string>
+    <string name="title_activity_add_single_task">AddSingleTaskActivity</string>
+    <string name="title_activity_check_single_task">CheckSingleTaskActivity</string>
+    <string name="title_activity_add_plan">AddPlanActivity</string>
+    <string name="title_activity_check_plan">CheckPlanActivity</string>
+    <string name="title_activity_edit_plan">EditPlanActivity</string>
+    <string name="title_activity_total_completence">TotalCompletenceActivity</string>
+    <string name="title_activity_check_all">CheckAllActivity</string>
+    <string name="title_activity_edit_single_task">EditSingleTaskActivity</string>
+    <string name="title_activity_edit_task">EditTaskActivity</string>
+    <string name="title_activity_task_evaluate">TaskEvaluateActivity</string>
+    <string name="title_activity_single_task_evaluate">SingleTaskEvaluateActivity</string>
+    <string name="title_activity_check_all_plans_and_tasks">CheckAllPlansAndTasksActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_check_all_plan">CheckAllPlanActivity</string>
+    <string name="title_activity_check_all_single_task">CheckAllSingleTaskActivity</string>
+    <string name="title_activity_start">计划助手</string>
+    <string name="title_activity_information">InformationActivity</string>
+	<string name="information">软件过程产品\n开发团队   景波 毕揽宇 王世卿  施旭光 宋辉 \n合肥工业大学软件学院</string>
+	<drawable name="little_gray">#e7e7e7</drawable>
+</resources>

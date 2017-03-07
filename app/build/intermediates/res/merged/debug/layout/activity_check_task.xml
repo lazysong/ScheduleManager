@@ -1,0 +1,216 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/little_gray"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    
+    
+    <RelativeLayout 
+        android:id="@+id/linear_layout1"
+        android:background ="@drawable/title_background1"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+	        android:id="@+id/back_check_task"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dip"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/back_button_selector" />
+        
+        <TextView
+	        android:id="@+id/textView1_check_task"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:layout_marginLeft="80dip"
+	        android:layout_marginRight="20dip"
+	        android:layout_marginTop="10dip"
+	        android:layout_toRightOf="@id/back_check_task"
+	        android:textColor="@android:color/white"
+	        android:textSize="16dip"
+	        android:text="查看任务" />
+        
+         <Button
+	        android:id="@+id/edit_check_task"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/textView1_check_task"
+	        android:layout_marginLeft="0dp"
+	        android:layout_marginTop="10dip"
+	        android:background="@drawable/edit_button_selector"/>
+
+	    
+	
+	    <Button
+	        android:id="@+id/delete_check_task"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/edit_check_task"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:layout_marginTop="10dip"
+	        android:background="@drawable/delete_button_selector"/>
+        
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:layout_below="@+id/linear_layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+             >
+    <TextView
+        android:id="@+id/state_check_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_centerHorizontal="true"
+        android:textSize="22dip"
+        android:layout_marginTop="60dip"
+        android:textColor="@android:color/black"
+        android:text="TextView" />
+    
+    <ImageView 
+        android:id="@+id/imageview1_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/state_check_task"
+        android:background="@drawable/jiangetiao_list1"/>
+
+    <TextView
+        android:id="@+id/name_check_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview1_check_calendar"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:textSize="18dip"
+        android:text="TextView" />
+
+    <ImageView 
+        android:id="@+id/imageview2_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_check_task"
+        android:background="@drawable/jiangetiao_list1"/>
+    
+    <TextView
+        android:id="@+id/description_check_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageview2_check_calendar"
+        android:textColor="@android:color/black"
+        android:textSize="18dip"
+        android:text="TextView" />
+    
+    <ImageView 
+        android:id="@+id/imageview3_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_check_task"
+        android:background="@drawable/jiangetiao_list1"/>
+
+    <TextView
+        android:id="@+id/difficulty_check_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/imageview3_check_calendar"
+        android:layout_centerHorizontal="true"
+        android:textSize="18dip"
+        android:text="TextView" />
+
+     <ImageView 
+        android:id="@+id/imageview4_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/difficulty_check_task"
+        android:background="@drawable/jiangetiao_list1"/>
+    
+    <TextView
+        android:id="@+id/priority_check_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageview4_check_calendar"
+        android:textSize="18dip"
+        android:textColor="@android:color/black"
+        android:text="TextView" />
+
+    <ImageView 
+        android:id="@+id/imageview5_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/priority_check_task"
+        android:background="@drawable/jiangetiao_list1"/>
+    
+    <TextView
+        android:id="@+id/start_date_check_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview5_check_calendar"
+        android:layout_marginLeft="20dip"
+        android:textSize="18dip"
+        android:textColor="@android:color/black"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/start_time_check_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/priority_check_task"
+        android:layout_toRightOf="@id/start_date_check_task"
+        android:textSize="18dip"
+        android:textColor="@android:color/black"
+        android:text="TextView" />
+    
+    <ImageView 
+        android:id="@+id/imageview6_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_time_check_task"
+        android:background="@drawable/jiangetiao_list1"/>
+
+    <TextView
+        android:id="@+id/end_date_check_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview6_check_calendar"
+        android:layout_marginLeft="20dip"
+        android:textSize="18dip"
+        android:textColor="@android:color/black"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/end_time_check_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_time_check_task"
+        android:layout_toRightOf="@id/end_date_check_task"
+        android:textSize="18dip"
+        android:textColor="@android:color/black"
+        android:text="TextView" />
+    
+    <ImageView 
+        android:id="@+id/imageview7_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/end_time_check_task"
+        android:background="@drawable/jiangetiao_list1"/>
+	</RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

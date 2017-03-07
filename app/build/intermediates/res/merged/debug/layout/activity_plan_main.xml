@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_allplan"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout 
+        android:id="@+id/linear_layout1_plan_main"
+        android:background ="@drawable/title_background1"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+	        android:id="@+id/back_plan_main"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dip"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="20dip"
+	        android:background="@drawable/back_button_selector" />
+        
+        <TextView
+	        android:id="@+id/textView1_plan_main"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:layout_marginLeft="60dip"
+	        android:layout_marginRight="40dip"
+	        android:layout_marginTop="10dip"
+	        android:layout_toRightOf="@id/back_plan_main"
+	        android:textColor="@android:color/white"
+	        android:textSize="18dip"
+	        android:text="计划和任务" />
+
+	    <Button
+	        android:id="@+id/add_plan_main"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginTop="10dip"
+	        android:layout_toRightOf="@id/textView1_plan_main"
+	        android:background="@drawable/add_button_selector" />
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/plan_conclusion_plan_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+        android:layout_below="@id/linear_layout1_plan_main"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:background="@drawable/background_numberofplans" />
+    
+    <TextView
+        android:id="@+id/task_conclusion_plan_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/background_numberofplans"
+        android:layout_below="@id/plan_conclusion_plan_main"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/total_ability_plan_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dip"
+        android:background="@drawable/background_numberofplans"
+        android:layout_below="@+id/task_conclusion_plan_main"
+        android:gravity="center" />
+
+    <ImageView 
+        android:id="@+id/imageview_check_plan_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/background_listview"
+        android:layout_below="@id/total_ability_plan_main"/>
+    
+
+      <ListView
+        android:id="@+id/ListView1_plan_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/total_ability_plan_main"
+        android:layout_marginTop="30dip"
+        android:layout_alignLeft="@id/imageview_check_plan_main"
+        android:layout_alignRight="@id/imageview_check_plan_main"
+        android:divider="@drawable/jiangetiao_listview_allplan" />
+    
+
+     
+      <ListView
+        android:id="@+id/ListView2_plan_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ListView1_plan_main"
+        android:layout_marginTop="40dip"
+        android:layout_alignLeft="@id/imageview_check_plan_main"
+        android:layout_alignRight="@id/imageview_check_plan_main"
+        android:divider="@drawable/jiangetiao_listview_allplan" />
+
+    
+
+
+</RelativeLayout>

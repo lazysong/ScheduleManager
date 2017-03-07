@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_task_evaluate.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_task_evaluate.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_plan.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_check_plan.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_start.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_start.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_single_task.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_edit_single_task.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_calendar_main.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_calendar_main.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_total_completence.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_total_completence.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_plan.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_edit_plan.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_calendar_edit.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_calendar_edit.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_item.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\simple_item.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_all_plan.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_check_all_plan.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_single_task.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_check_single_task.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_calendar_add.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_calendar_add.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_alarm.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_information.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_information.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_single_task.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_add_single_task.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_all_single_task.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_check_all_single_task.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_task.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_edit_task.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notification.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_notification.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_all_plans_and_tasks.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_check_all_plans_and_tasks.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_plan.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_add_plan.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_calendar_specific.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_calendar_specific.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\left_fragment.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\left_fragment.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_main.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_plan_main.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_single_task_evaluate.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_single_task_evaluate.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_calendar_today.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_calendar_today.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_task.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_add_task.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_check_task.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_check_task.xml"
+    },
+    {
+        "merged": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\team_trac_project\\tech_valid\\ScheduleManager\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

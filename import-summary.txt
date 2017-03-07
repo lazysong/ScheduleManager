@@ -1,0 +1,290 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* ScheduleManagement.apk
+* classes.dex
+* classes\
+* classes\com\
+* classes\com\lazysong\
+* classes\com\lazysong\schedulemanagement\
+* classes\com\lazysong\schedulemanagement\BuildConfig.class
+* classes\com\lazysong\schedulemanagement\ExitApplication.class
+* classes\com\lazysong\schedulemanagement\InformationActivity$1.class
+* classes\com\lazysong\schedulemanagement\InformationActivity.class
+* classes\com\lazysong\schedulemanagement\MainActivity$1.class
+* classes\com\lazysong\schedulemanagement\MainActivity$10.class
+* classes\com\lazysong\schedulemanagement\MainActivity$11.class
+* classes\com\lazysong\schedulemanagement\MainActivity$12.class
+* classes\com\lazysong\schedulemanagement\MainActivity$13.class
+* classes\com\lazysong\schedulemanagement\MainActivity$14.class
+* classes\com\lazysong\schedulemanagement\MainActivity$15.class
+* classes\com\lazysong\schedulemanagement\MainActivity$2.class
+* classes\com\lazysong\schedulemanagement\MainActivity$3.class
+* classes\com\lazysong\schedulemanagement\MainActivity$4.class
+* classes\com\lazysong\schedulemanagement\MainActivity$5.class
+* classes\com\lazysong\schedulemanagement\MainActivity$6.class
+* classes\com\lazysong\schedulemanagement\MainActivity$7.class
+* classes\com\lazysong\schedulemanagement\MainActivity$8.class
+* classes\com\lazysong\schedulemanagement\MainActivity$9$1.class
+* classes\com\lazysong\schedulemanagement\MainActivity$9.class
+* classes\com\lazysong\schedulemanagement\MainActivity.class
+* classes\com\lazysong\schedulemanagement\NotificationActivity.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$1.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$10.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$11$1.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$11.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$2.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$3.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$4.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$5.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$6.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$7.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$8.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity$9.class
+* classes\com\lazysong\schedulemanagement\PlanMainActivity.class
+* classes\com\lazysong\schedulemanagement\R$array.class
+* classes\com\lazysong\schedulemanagement\R$attr.class
+* classes\com\lazysong\schedulemanagement\R$drawable.class
+* classes\com\lazysong\schedulemanagement\R$id.class
+* classes\com\lazysong\schedulemanagement\R$layout.class
+* classes\com\lazysong\schedulemanagement\R$raw.class
+* classes\com\lazysong\schedulemanagement\R$string.class
+* classes\com\lazysong\schedulemanagement\R.class
+* classes\com\lazysong\schedulemanagement\SlidingMenu$OnSlidingMenuListener.class
+* classes\com\lazysong\schedulemanagement\SlidingMenu$Scroll_State.class
+* classes\com\lazysong\schedulemanagement\SlidingMenu.class
+* classes\com\lazysong\schedulemanagement\StartActivity$1.class
+* classes\com\lazysong\schedulemanagement\StartActivity.class
+* classes\com\lazysong\schedulemanagement\TotalCompletenceActivity$1.class
+* classes\com\lazysong\schedulemanagement\TotalCompletenceActivity$2.class
+* classes\com\lazysong\schedulemanagement\TotalCompletenceActivity$3.class
+* classes\com\lazysong\schedulemanagement\TotalCompletenceActivity$4.class
+* classes\com\lazysong\schedulemanagement\TotalCompletenceActivity$5.class
+* classes\com\lazysong\schedulemanagement\TotalCompletenceActivity$6.class
+* classes\com\lazysong\schedulemanagement\TotalCompletenceActivity$7.class
+* classes\com\lazysong\schedulemanagement\TotalCompletenceActivity.class
+* classes\com\lazysong\schedulemanagement\alarm\
+* classes\com\lazysong\schedulemanagement\alarm\AlarmActivity$1.class
+* classes\com\lazysong\schedulemanagement\alarm\AlarmActivity.class
+* classes\com\lazysong\schedulemanagement\alarm\AlarmManage.class
+* classes\com\lazysong\schedulemanagement\calendar\
+* classes\com\lazysong\schedulemanagement\calendar\CalendarAddActivity$1.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarAddActivity$2.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarAddActivity$3.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarAddActivity$4.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarAddActivity$5$1.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarAddActivity$5.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarAddActivity$6$1.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarAddActivity$6.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarAddActivity.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarEditActivity$1.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarEditActivity$2.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarEditActivity$3.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarEditActivity$4.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarEditActivity$5$1.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarEditActivity$5.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarEditActivity$6$1.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarEditActivity$6.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarEditActivity.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarMainActivity$1.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarMainActivity$2.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarMainActivity$3.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarMainActivity$4.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarMainActivity$5.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarMainActivity.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarSpecificActivity$1.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarSpecificActivity$2.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarSpecificActivity$3.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarSpecificActivity.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarTodayActivity$1.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarTodayActivity$2.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarTodayActivity$3.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarTodayActivity$4.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarTodayActivity$5.class
+* classes\com\lazysong\schedulemanagement\calendar\CalendarTodayActivity.class
+* classes\com\lazysong\schedulemanagement\db\
+* classes\com\lazysong\schedulemanagement\db\Calendar.class
+* classes\com\lazysong\schedulemanagement\db\CalendarDataOperation.class
+* classes\com\lazysong\schedulemanagement\db\DatabaseHelper.class
+* classes\com\lazysong\schedulemanagement\db\MyCalendar.class
+* classes\com\lazysong\schedulemanagement\db\MyDatabaseHelper.class
+* classes\com\lazysong\schedulemanagement\db\PlanDataOperation.class
+* classes\com\lazysong\schedulemanagement\db\TaskDataOperation.class
+* classes\com\lazysong\schedulemanagement\help\
+* classes\com\lazysong\schedulemanagement\help\CheckValid.class
+* classes\com\lazysong\schedulemanagement\help\Evaluate.class
+* classes\com\lazysong\schedulemanagement\help\MyPlan.class
+* classes\com\lazysong\schedulemanagement\help\MyTask.class
+* classes\com\lazysong\schedulemanagement\plan\
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity$1.class
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity$2.class
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity$3$1.class
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity$3.class
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity$4$1.class
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity$4.class
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity$5$1.class
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity$5.class
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity$6$1.class
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity$6.class
+* classes\com\lazysong\schedulemanagement\plan\AddPlanActivity.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlanActivity$1.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlanActivity$2.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlanActivity$3.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlanActivity$4.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlanActivity$5.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlanActivity.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlansAndTasksActivity$1.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlansAndTasksActivity$2.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlansAndTasksActivity$3.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlansAndTasksActivity$4.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlansAndTasksActivity$5.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlansAndTasksActivity$6.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlansAndTasksActivity$7.class
+* classes\com\lazysong\schedulemanagement\plan\CheckAllPlansAndTasksActivity.class
+* classes\com\lazysong\schedulemanagement\plan\CheckPlanActivity$1.class
+* classes\com\lazysong\schedulemanagement\plan\CheckPlanActivity$2.class
+* classes\com\lazysong\schedulemanagement\plan\CheckPlanActivity$3.class
+* classes\com\lazysong\schedulemanagement\plan\CheckPlanActivity$4.class
+* classes\com\lazysong\schedulemanagement\plan\CheckPlanActivity$5.class
+* classes\com\lazysong\schedulemanagement\plan\CheckPlanActivity$6.class
+* classes\com\lazysong\schedulemanagement\plan\CheckPlanActivity$7.class
+* classes\com\lazysong\schedulemanagement\plan\CheckPlanActivity.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity$1.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity$2.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity$3$1.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity$3.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity$4$1.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity$4.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity$5$1.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity$5.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity$6$1.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity$6.class
+* classes\com\lazysong\schedulemanagement\plan\EditPlanActivity.class
+* classes\com\lazysong\schedulemanagement\task\
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$1.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$2.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$3.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$4.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$5$1.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$5.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$6$1.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$6.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$7$1.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$7.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$8$1.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity$8.class
+* classes\com\lazysong\schedulemanagement\task\AddSingleTaskActivity.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$1.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$2.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$3.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$4.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$5$1.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$5.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$6$1.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$6.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$7$1.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$7.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$8$1.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity$8.class
+* classes\com\lazysong\schedulemanagement\task\AddTaskActivity.class
+* classes\com\lazysong\schedulemanagement\task\CheckAllSingleTaskActivity$1.class
+* classes\com\lazysong\schedulemanagement\task\CheckAllSingleTaskActivity$2.class
+* classes\com\lazysong\schedulemanagement\task\CheckAllSingleTaskActivity$3.class
+* classes\com\lazysong\schedulemanagement\task\CheckAllSingleTaskActivity$4.class
+* classes\com\lazysong\schedulemanagement\task\CheckAllSingleTaskActivity$5.class
+* classes\com\lazysong\schedulemanagement\task\CheckAllSingleTaskActivity.class
+* classes\com\lazysong\schedulemanagement\task\CheckSingleTaskActivity$1.class
+* classes\com\lazysong\schedulemanagement\task\CheckSingleTaskActivity$2.class
+* classes\com\lazysong\schedulemanagement\task\CheckSingleTaskActivity$3.class
+* classes\com\lazysong\schedulemanagement\task\CheckSingleTaskActivity.class
+* classes\com\lazysong\schedulemanagement\task\CheckTaskActivity$1.class
+* classes\com\lazysong\schedulemanagement\task\CheckTaskActivity$2.class
+* classes\com\lazysong\schedulemanagement\task\CheckTaskActivity$3.class
+* classes\com\lazysong\schedulemanagement\task\CheckTaskActivity.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$1.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$2.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$3.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$4.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$5$1.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$5.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$6$1.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$6.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$7$1.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$7.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$8$1.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity$8.class
+* classes\com\lazysong\schedulemanagement\task\EditSingleTaskActivity.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$1.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$2.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$3.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$4.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$5$1.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$5.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$6$1.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$6.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$7$1.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$7.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$8$1.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity$8.class
+* classes\com\lazysong\schedulemanagement\task\EditTaskActivity.class
+* classes\com\lazysong\schedulemanagement\task\SingleTaskEvaluateActivity$1.class
+* classes\com\lazysong\schedulemanagement\task\SingleTaskEvaluateActivity$2.class
+* classes\com\lazysong\schedulemanagement\task\SingleTaskEvaluateActivity$3.class
+* classes\com\lazysong\schedulemanagement\task\SingleTaskEvaluateActivity.class
+* classes\com\lazysong\schedulemanagement\task\TaskEvaluateActivity$1.class
+* classes\com\lazysong\schedulemanagement\task\TaskEvaluateActivity$2.class
+* classes\com\lazysong\schedulemanagement\task\TaskEvaluateActivity$3.class
+* classes\com\lazysong\schedulemanagement\task\TaskEvaluateActivity.class
+* dexedLibs\
+* dexedLibs\android-support-v4-a487ddc4fffedf761577e80a968d0679.jar
+* hs_err_pid4000.log
+* hs_err_pid4680.log
+* hs_err_pid5848.log
+* hs_err_pid6848.log
+* hs_err_pid7096.log
+* ic_launcher-web.png
+* proguard-project.txt
+* resources.ap_
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

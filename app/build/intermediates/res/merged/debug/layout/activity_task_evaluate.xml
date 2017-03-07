@@ -1,0 +1,143 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_evaluate"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/textView1_evaluate_task"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@drawable/title_background"
+        android:textColor="@android:color/white"
+        android:text="评估任务"
+        android:textSize="18dip" />
+    
+   
+    
+    <TextView
+        android:id="@id/conclusion_total_completence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1_evaluate_task"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textSize="18dip"
+        android:textColor="@android:color/white"
+        android:text="接受传值" />
+    
+    <LinearLayout
+        android:id="@+id/line2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/conclusion_total_completence"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+       
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dip"
+        	android:textColor="@android:color/white"
+            android:text="任务名称：" />
+      
+      <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:textColor="@android:color/white"
+        android:text="name"
+         />
+   </LinearLayout>
+   
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line2"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+       
+       <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dip"
+        	android:textColor="@android:color/white"
+            android:text="任务描述：" />
+      
+      <TextView
+        android:id="@+id/des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dip"
+        android:textColor="@android:color/white"
+        android:text="34%"
+       />
+   </LinearLayout>
+   
+   
+        <TextView
+            android:id="@+id/textView2_task_evaluate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_below="@id/line3"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dip"
+        	android:textColor="@android:color/white"
+            android:text="任务完成度：" />
+      
+       <!--
+		
+		SeekBar - 可拖动的进度条控件
+		max - 进度的最大值
+		progress - 第一进度位置
+		secondaryProgress - 第二进度位置
+		
+		-->
+		
+		<SeekBar 
+			android:id="@+id/seekBar" 
+			android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:progressDrawable="@drawable/player_setting_bright_progressbar"
+        	android:thumb="@drawable/player_settings_bright_thumb"
+			android:layout_below="@id/textView2_task_evaluate"
+			android:layout_marginLeft="40dip"
+			android:layout_marginRight="40dip"
+			android:layout_centerHorizontal="true"
+			android:progress="50" 
+			android:secondaryProgress="75" />
+		       
+
+		
+
+
+    
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/seekBar"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/save_button_selector" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:layout_marginTop="20dip"
+			android:layout_below="@id/save"
+            android:background="@drawable/cancle_button_selector" />
+   
+
+</RelativeLayout>

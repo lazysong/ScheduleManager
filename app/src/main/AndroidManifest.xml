@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lazysong.schedulemanagement"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".calendar.CalendarMainActivity"
+            android:label="@string/title_activity_calendar_main" >
+        </activity>
+        <activity
+            android:name=".Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name=".calendar.CalendarSpecificActivity"
+            android:label="@string/title_activity_calendar_specific" >
+        </activity>
+        <activity
+            android:name=".calendar.CalendarEditActivity"
+            android:label="@string/title_activity_calendar_edit" >
+        </activity>
+        <activity
+            android:name=".calendar.CalendarAddActivity"
+            android:label="@string/title_activity_calendar_add" >
+        </activity>
+        <activity
+            android:name=".PlanMainActivity"
+            android:label="@string/title_activity_plan_main" >
+        </activity>
+        <activity
+            android:name=".plan.PlanCheckActivity"
+            android:label="@string/title_activity_plan_check" >
+        </activity>
+        <activity
+            android:name=".plan.PlanEditActivity"
+            android:label="@string/title_activity_plan_edit" >
+        </activity>
+        <activity
+            android:name=".plan.PlanAddActivity"
+            android:label="@string/title_activity_plan_add" >
+        </activity>
+        <activity
+            android:name=".calendar.CalendarTodayActivity"
+            android:label="@string/title_activity_calendar_today" >
+        </activity>
+        <activity
+            android:name=".alarm.AlarmActivity"
+            android:label="@string/title_activity_alarm" >
+        </activity>
+        <activity
+            android:name=".task.CheckTaskActivity"
+            android:label="@string/title_activity_check_task" >
+        </activity>
+        <activity
+            android:name=".task.AddTaskActivity"
+            android:label="@string/title_activity_add_task" >
+        </activity>
+        <activity
+            android:name=".task.AddSingleTaskActivity"
+            android:label="@string/title_activity_add_single_task" >
+        </activity>
+        <activity
+            android:name=".task.CheckSingleTaskActivity"
+            android:label="@string/title_activity_check_single_task" >
+        </activity>
+        <activity
+            android:name=".plan.AddPlanActivity"
+            android:label="@string/title_activity_add_plan" >
+        </activity>
+        <activity android:name=".plan.CheckPlanActivity" >
+        </activity>
+        <activity
+            android:name=".plan.EditPlanActivity"
+            android:label="@string/title_activity_edit_plan" >
+        </activity>
+        <activity
+            android:name=".TotalCompletenceActivity"
+            android:label="@string/title_activity_total_completence" >
+        </activity>
+        <activity
+            android:name=".CheckAllActivity"
+            android:label="@string/title_activity_check_all" >
+        </activity>
+        <activity
+            android:name=".task.EditSingleTaskActivity"
+            android:label="@string/title_activity_edit_single_task" >
+        </activity>
+        <activity
+            android:name=".task.EditTaskActivity"
+            android:label="@string/title_activity_edit_task" >
+        </activity>
+        <activity
+            android:name=".task.TaskEvaluateActivity"
+            android:label="@string/title_activity_task_evaluate" >
+        </activity>
+        <activity
+            android:name=".task.SingleTaskEvaluateActivity"
+            android:label="@string/title_activity_single_task_evaluate" >
+        </activity>
+        <activity
+            android:name=".plan.CheckAllPlansAndTasksActivity"
+            android:label="@string/title_activity_check_all_plans_and_tasks" >
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name=".plan.CheckAllPlanActivity"
+            android:label="@string/title_activity_check_all_plan" >
+        </activity>
+        <activity
+            android:name=".task.CheckAllSingleTaskActivity"
+            android:label="@string/title_activity_check_all_single_task" >
+        </activity>
+        <activity
+            android:name=".StartActivity"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InformationActivity"
+            android:label="@string/title_activity_information" >
+        </activity>
+    </application>
+
+</manifest>

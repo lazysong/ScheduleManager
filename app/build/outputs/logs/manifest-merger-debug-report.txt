@@ -1,0 +1,233 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:2:1-145:12
+	package
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml
+		INJECTED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml
+		INJECTED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml
+		INJECTED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:21.0.3] D:\team_trac_project\tech_valid\ScheduleManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml
+		INJECTED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:8:9-34
+		INJECTED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml
+		INJECTED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:11:5-143:19
+MERGED from [com.android.support:support-v4:21.0.3] D:\team_trac_project\tech_valid\ScheduleManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:14:9-41
+	android:allowBackup
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:12:9-35
+	android:icon
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:15:9-56
+activity#com.lazysong.schedulemanagement.MainActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:16:9-19:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:18:13-56
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:17:13-41
+activity#com.lazysong.schedulemanagement.calendar.CalendarMainActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:20:9-23:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:22:13-65
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:21:13-58
+activity#com.lazysong.schedulemanagement.Test
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:24:9-27:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:26:13-56
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:25:13-33
+activity#com.lazysong.schedulemanagement.calendar.CalendarSpecificActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:28:9-31:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:29:13-62
+activity#com.lazysong.schedulemanagement.calendar.CalendarEditActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:32:9-35:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:34:13-65
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:33:13-58
+activity#com.lazysong.schedulemanagement.calendar.CalendarAddActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:36:9-39:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:38:13-64
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:37:13-57
+activity#com.lazysong.schedulemanagement.PlanMainActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:40:9-43:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:42:13-61
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:41:13-45
+activity#com.lazysong.schedulemanagement.plan.PlanCheckActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:44:9-47:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:46:13-62
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:45:13-51
+activity#com.lazysong.schedulemanagement.plan.PlanEditActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:48:9-51:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:50:13-61
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:49:13-50
+activity#com.lazysong.schedulemanagement.plan.PlanAddActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:52:9-55:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:54:13-60
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:53:13-49
+activity#com.lazysong.schedulemanagement.calendar.CalendarTodayActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:56:9-59:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:58:13-66
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:57:13-59
+activity#com.lazysong.schedulemanagement.alarm.AlarmActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:60:9-63:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:62:13-57
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:61:13-48
+activity#com.lazysong.schedulemanagement.task.CheckTaskActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:64:9-67:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:66:13-62
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:65:13-51
+activity#com.lazysong.schedulemanagement.task.AddTaskActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:68:9-71:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:70:13-60
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:69:13-49
+activity#com.lazysong.schedulemanagement.task.AddSingleTaskActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:72:9-75:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:74:13-67
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:73:13-55
+activity#com.lazysong.schedulemanagement.task.CheckSingleTaskActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:76:9-79:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:78:13-69
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:77:13-57
+activity#com.lazysong.schedulemanagement.plan.AddPlanActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:80:9-83:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:82:13-60
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:81:13-49
+activity#com.lazysong.schedulemanagement.plan.CheckPlanActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:84:9-85:20
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:84:19-57
+activity#com.lazysong.schedulemanagement.plan.EditPlanActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:86:9-89:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:88:13-61
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:87:13-50
+activity#com.lazysong.schedulemanagement.TotalCompletenceActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:90:9-93:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:92:13-69
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:91:13-53
+activity#com.lazysong.schedulemanagement.CheckAllActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:94:9-97:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:96:13-61
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:95:13-45
+activity#com.lazysong.schedulemanagement.task.EditSingleTaskActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:98:9-101:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:100:13-68
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:99:13-56
+activity#com.lazysong.schedulemanagement.task.EditTaskActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:102:9-105:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:104:13-61
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:103:13-50
+activity#com.lazysong.schedulemanagement.task.TaskEvaluateActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:106:9-109:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:108:13-65
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:107:13-54
+activity#com.lazysong.schedulemanagement.task.SingleTaskEvaluateActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:110:9-113:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:112:13-72
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:111:13-60
+activity#com.lazysong.schedulemanagement.plan.CheckAllPlansAndTasksActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:114:9-117:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:116:13-77
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:115:13-63
+activity#com.lazysong.schedulemanagement.NotificationActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:118:9-121:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:120:13-64
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:119:13-49
+activity#com.lazysong.schedulemanagement.plan.CheckAllPlanActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:122:9-125:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:124:13-66
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:123:13-54
+activity#com.lazysong.schedulemanagement.task.CheckAllSingleTaskActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:126:9-129:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:128:13-73
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:127:13-60
+activity#com.lazysong.schedulemanagement.StartActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:130:9-138:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:132:13-57
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:131:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:133:13-137:29
+action#android.intent.action.MAIN
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:134:17-69
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:134:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:136:17-77
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:136:27-74
+activity#com.lazysong.schedulemanagement.InformationActivity
+ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:139:9-142:20
+	android:label
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:141:13-63
+	android:name
+		ADDED from D:\team_trac_project\tech_valid\ScheduleManager\app\src\main\AndroidManifest.xml:140:13-48

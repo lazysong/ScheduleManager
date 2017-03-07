@@ -1,0 +1,133 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background5"
+    tools:context="${relativePackage}.${activityClass}" >
+
+     <TextView
+        android:id="@+id/textView1_edit_single_task"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/title_background"
+        android:textColor="@android:color/white"
+        android:text="编辑独立任务"
+        android:textSize="18dip" />
+    
+
+    
+    <EditText
+        android:id="@+id/name_edit_single_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1_edit_single_task"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input"
+        android:layout_marginTop="10dip"
+        android:gravity="center_horizontal"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+
+
+    <EditText
+        android:id="@+id/description_edit_single_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_edit_single_task"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/input"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dip"
+        android:ems="10" />
+    
+    <Spinner
+        android:id="@+id/spinner1_edit_single_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/description_edit_single_task"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/spinner_selector"
+        android:gravity="center_horizontal"
+        android:paddingLeft="80dip" />
+
+    <Spinner
+        android:id="@+id/spinner2_edit_single_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner1_edit_single_task"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/spinner_selector"
+        android:gravity="center_horizontal"
+        android:paddingLeft="80dip" />
+
+   
+
+   
+
+    <Button
+        android:id="@+id/start_date_edit_single_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner2_edit_single_task"
+        android:background="@drawable/datatime_button_selector"
+        android:layout_alignLeft="@id/spinner2_edit_single_task"
+        android:text="Button" />
+    
+     <Button
+        android:id="@+id/start_time_edit_single_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinner2_edit_single_task"
+        android:layout_toRightOf="@id/start_date_edit_single_task"
+        android:background="@drawable/datatime_button_selector"
+        android:layout_alignRight="@id/spinner2_edit_single_task"
+        android:text="Button" />
+
+     <Button
+        android:id="@+id/end_date_edit_single_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/start_date_edit_single_task"
+        android:layout_below="@id/start_date_edit_single_task"
+        android:background="@drawable/datatime_button_selector"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/end_time_edit_single_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/start_time_edit_single_task"
+        android:layout_toRightOf="@id/end_date_edit_single_task"
+        android:layout_alignRight="@id/start_time_edit_single_task"
+        android:background="@drawable/datatime_button_selector"
+        android:text="Button" />
+    
+
+
+    <Button
+        android:id="@+id/save_edit_single_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="20dip"
+        android:layout_marginTop="5dip"
+        android:layout_below="@id/end_date_edit_single_task"
+        android:background="@drawable/save_button_selector" />
+    
+
+   
+     <Button
+        android:id="@+id/cancle_edit_single_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save_edit_single_task"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/cancle_button_selector" />
+
+</RelativeLayout>

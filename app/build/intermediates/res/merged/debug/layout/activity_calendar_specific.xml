@@ -1,0 +1,195 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_check"
+    tools:context="${relativePackage}.${activityClass}" >
+
+
+    <RelativeLayout 
+        android:id="@+id/linearlayout_check_calendar"
+        android:background ="@drawable/title_background1"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+	        android:id="@+id/back_check_calendar"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="20dip"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/back_button_selector" />
+        
+        <TextView
+	        android:id="@+id/textView_check_calendar"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerInParent="true"
+	        android:layout_marginLeft="80dip"
+	        android:layout_marginRight="40dip"
+	        android:layout_marginTop="10dip"
+	        android:layout_toRightOf="@id/back_check_calendar"
+	        android:textColor="@android:color/white"
+	        android:textSize="16dip"
+	        android:gravity="center"
+	        android:text="查看日程" />
+        
+         <Button
+	        android:id="@+id/edit_check_calendar"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/textView_check_calendar"
+	        android:layout_marginLeft="0dp"
+	        android:layout_marginTop="10dip"
+	        android:background="@drawable/edit_button_selector"/>
+
+	
+	    <Button
+	        android:id="@+id/delete_check_calendar"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/edit_check_calendar"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginTop="10dip"
+	        android:background="@drawable/delete_button_selector"/>
+        
+    </RelativeLayout>
+
+    <ImageView 
+        android:id="@+id/imageview0_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_below="@id/linearlayout_check_calendar"
+        android:background="@drawable/jiangetiao_list1"/>
+   
+
+    <TextView
+        android:id="@+id/textView1_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:layout_below="@id/imageview0_check_calendar"
+        android:layout_centerHorizontal="true"
+        android:text="Large Text"
+        android:textColor="@android:color/tertiary_text_dark"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <ImageView 
+        android:id="@+id/imageview1_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1_check_calendar"
+        android:background="@drawable/jiangetiao_list1"/>
+
+    <TextView
+        android:id="@+id/textView2_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageview1_check_calendar"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="20dip"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+     
+    
+    <TextView
+	    android:id="@+id/textView3_check_calendar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_toRightOf="@id/textView2_check_calendar"
+	    android:layout_below="@id/imageview1_check_calendar"
+	    android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+	    android:text="Large Text"
+	    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView 
+        android:id="@+id/imageview3_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3_check_calendar"
+        android:background="@drawable/jiangetiao_list1"/>
+    
+    <TextView
+        android:id="@+id/textView4_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView1_check_calendar"
+        android:layout_below="@id/imageview3_check_calendar"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView 
+        android:id="@+id/imageview4_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4_check_calendar"
+        android:background="@drawable/jiangetiao_list1"/>
+    
+    <TextView
+        android:id="@+id/textView5_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView1_check_calendar"
+        android:layout_below="@id/imageview4_check_calendar"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView 
+        android:id="@+id/imageview5_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5_check_calendar"
+        android:background="@drawable/jiangetiao_list1"/>
+    
+    <TextView
+        android:id="@+id/textView6_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView1_check_calendar"
+        android:layout_below="@id/imageview5_check_calendar"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView 
+        android:id="@+id/imageview6_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6_check_calendar"
+        android:background="@drawable/jiangetiao_list1"/>
+    
+    <TextView
+        android:id="@+id/textView7_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/textView1_check_calendar"
+        android:layout_below="@id/imageview6_check_calendar"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="10dip"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView 
+        android:id="@+id/imageview7_check_calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView7_check_calendar"
+        android:background="@drawable/jiangetiao_list1"/>
+
+
+    
+</RelativeLayout>

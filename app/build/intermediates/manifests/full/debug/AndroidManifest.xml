@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lazysong.schedulemanagement"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.lazysong.schedulemanagement.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.calendar.CalendarMainActivity"
+            android:label="@string/title_activity_calendar_main" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.Test"
+            android:label="@string/title_activity_test" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.calendar.CalendarSpecificActivity"
+            android:label="@string/title_activity_calendar_specific" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.calendar.CalendarEditActivity"
+            android:label="@string/title_activity_calendar_edit" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.calendar.CalendarAddActivity"
+            android:label="@string/title_activity_calendar_add" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.PlanMainActivity"
+            android:label="@string/title_activity_plan_main" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.plan.PlanCheckActivity"
+            android:label="@string/title_activity_plan_check" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.plan.PlanEditActivity"
+            android:label="@string/title_activity_plan_edit" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.plan.PlanAddActivity"
+            android:label="@string/title_activity_plan_add" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.calendar.CalendarTodayActivity"
+            android:label="@string/title_activity_calendar_today" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.alarm.AlarmActivity"
+            android:label="@string/title_activity_alarm" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.task.CheckTaskActivity"
+            android:label="@string/title_activity_check_task" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.task.AddTaskActivity"
+            android:label="@string/title_activity_add_task" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.task.AddSingleTaskActivity"
+            android:label="@string/title_activity_add_single_task" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.task.CheckSingleTaskActivity"
+            android:label="@string/title_activity_check_single_task" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.plan.AddPlanActivity"
+            android:label="@string/title_activity_add_plan" >
+        </activity>
+        <activity android:name="com.lazysong.schedulemanagement.plan.CheckPlanActivity" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.plan.EditPlanActivity"
+            android:label="@string/title_activity_edit_plan" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.TotalCompletenceActivity"
+            android:label="@string/title_activity_total_completence" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.CheckAllActivity"
+            android:label="@string/title_activity_check_all" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.task.EditSingleTaskActivity"
+            android:label="@string/title_activity_edit_single_task" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.task.EditTaskActivity"
+            android:label="@string/title_activity_edit_task" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.task.TaskEvaluateActivity"
+            android:label="@string/title_activity_task_evaluate" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.task.SingleTaskEvaluateActivity"
+            android:label="@string/title_activity_single_task_evaluate" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.plan.CheckAllPlansAndTasksActivity"
+            android:label="@string/title_activity_check_all_plans_and_tasks" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.NotificationActivity"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.plan.CheckAllPlanActivity"
+            android:label="@string/title_activity_check_all_plan" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.task.CheckAllSingleTaskActivity"
+            android:label="@string/title_activity_check_all_single_task" >
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.StartActivity"
+            android:label="@string/title_activity_start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lazysong.schedulemanagement.InformationActivity"
+            android:label="@string/title_activity_information" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_allplan"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout 
+        android:id="@+id/linear_layout1_total_completence"
+        android:background ="@drawable/title_background1"
+        android:layout_alignParentTop="true"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+        <Button
+	        android:id="@+id/back_total_completence"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dip"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/back_button_selector" />
+        
+        <TextView
+            android:id="@+id/textView1_total_completence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/back_total_completence"
+            android:textColor="@android:color/white"
+            android:text="综合执行能力分析"
+            android:layout_marginLeft="60dip"
+            android:layout_centerVertical="true"
+            android:textSize="18dip" />
+
+        
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/conclusion_total_completence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/linear_layout1_total_completence"
+        android:background="@drawable/background_numberofplans"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+    
+    <ImageView 
+        android:id="@+id/imageview_check_total_completence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/background_listview"
+        android:layout_below="@id/conclusion_total_completence"/>
+    
+	
+    <TextView 
+	    android:id="@+id/textView2_total_completence"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/conclusion_total_completence"
+	    android:layout_marginTop="50dip"
+	    android:text="计划"
+	    android:textColor="@android:color/white"/>
+    
+      <ListView
+        android:id="@+id/ListView1_total_completence"
+        android:layout_width="wrap_content"
+        android:layout_height="100dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView2_total_completence"
+        android:layout_marginTop="10dip"
+        android:layout_alignLeft="@id/imageview_check_total_completence"
+        android:layout_alignRight="@id/imageview_check_total_completence"
+        android:divider="@drawable/jiangetiao_listview_allplan" />
+    
+	<TextView 
+	    android:id="@+id/textView3_total_completence"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_below="@id/ListView1_total_completence"
+	    android:text="独立任务"
+	    android:textColor="@android:color/white"/>
+      
+     
+      <ListView
+        android:id="@+id/ListView2_total_completence"
+        android:layout_width="wrap_content"
+        android:layout_height="100dip"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView3_total_completence"
+        android:layout_marginTop="10dip"
+        android:layout_alignLeft="@id/imageview_check_total_completence"
+        android:layout_alignRight="@id/imageview_check_total_completence"
+        android:divider="@drawable/jiangetiao_listview_allplan" />
+
+</RelativeLayout>

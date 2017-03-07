@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/conclusion_total_completence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="74dp"
+        android:text="所有的计划和独立任务" />
+
+    <Button
+        android:id="@+id/back_check_all_plans_and_tasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/conclusion_total_completence"
+        android:layout_marginLeft="16dp"
+        android:text="返回" />
+
+    <ListView
+        android:id="@+id/ListView1__check_all_plans_and_tasks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/back_check_all_plans_and_tasks" >
+
+    </ListView>
+    
+    <ListView
+        android:id="@+id/ListView2__check_all_plans_and_tasks"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ListView1__check_all_plans_and_tasks" >
+    </ListView>
+
+</RelativeLayout>
